@@ -17,6 +17,9 @@ develop-eggs
 .installed.cfg
 lib
 lib64
+src/*.jpg
+src/*.gif
+src/*.png
 
 # Installer logs
 pip-log.txt
