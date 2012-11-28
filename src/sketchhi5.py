@@ -6,6 +6,7 @@ import simplejson
 import wx
 import cv2.cv as cv
 import sys
+import os
 
 class Panel1(wx.Panel):
 
@@ -41,7 +42,7 @@ class Panel1(wx.Panel):
         #Display sketchhi5'ed image    
         jpg1 = wx.Image('edge_image.png', wx.BITMAP_TYPE_ANY).ConvertToBitmap()
         wx.StaticBitmap(self, -1, jpg1, (500, 5), (450, 480))
-        
+        os.remove("edge_image.png")
     
 wx.InitAllImageHandlers()
 app = wx.PySimpleApp()
