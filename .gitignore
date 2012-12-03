@@ -20,7 +20,7 @@ lib64
 src/*.jpg
 src/*.gif
 src/*.png
-
+src/*.bmp
 # Installer logs
 pip-log.txt
 
